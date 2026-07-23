@@ -1,3 +1,4 @@
+![Data Pipeline Workflow](image.png)
 # 🐍 Python Automation & Data Engineering Toolkit
 
 Welcome to my personal collection of Python utility scripts, ETL helpers, and workflow shortcuts! 
