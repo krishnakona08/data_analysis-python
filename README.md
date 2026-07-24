@@ -11,8 +11,8 @@ This repository serves as a modular toolkit designed to automate repetitive data
 
 | Category | Script / Notebook | Description | Key Tech / Modules |
 | :--- | :--- | :--- | :--- |
-| **ETL & File Prep** | `folder_to_single_file.py` | Automatically merges a folder of CSV/Excel files into a single master workbook; splits datasets exceeding Excel's 1.04M row limit. | `pandas`, `openpyxl`, `re`, `os` |
-| **Database Pipelines** | `retrive_tables_to_mysql.py` | Automatically creates database schemas and streams multi-table Excel/CSV datasets directly into MySQL. | `sqlalchemy`, `pandas`, `mysql-connector` |
+| **ETL & File Prep** | `CONVERT FOLDER TO FILE.ipnd` | Automatically merges a folder of CSV/Excel files into a single master workbook; splits datasets exceeding Excel's 1.04M row limit. | `pandas`, `openpyxl`, `re`, `os` |
+| **Database Pipelines** | `Extract_tables_to_python_as_dataframes.ipnd` | Automatically creates database schemas and streams multi-table Excel/CSV datasets directly into MySQL. | `Extract_tables_to_sql` |
 | **Data Ingestion** | `retrive_tables.py` | Ingests multi-sheet workbooks into native Jupyter DataFrames while bypassing corrupted `zipfile` CRC metadata errors. | `pandas`, `zipfile`, `globals()` |
 | *(Future Tools)* | *Coming Soon* | *More daily automation scripts and helper functions will be continuously added here.* | `Python` |
 
